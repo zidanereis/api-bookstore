@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch api/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@nestjs/cli": "^10.4.8",
+    "@prisma/client": "^5.22.0",
+    "@types/node": "^22.9.1",
+    "express": "^4.21.1",
+    "fastify": "^5.1.0",
+    "prisma": "^5.22.0",
+    "readline-sync": "^1.4.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/readline-sync": "^1.4.8"
+  }
+}
